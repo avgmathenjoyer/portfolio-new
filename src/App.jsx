@@ -55,7 +55,7 @@ function Hero() {
             Programming and machine learning enthusiast.
           </h3>
           <h1 className="drop-shadow-2xl font-sans text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold">
-            AVGMATHENJOYER
+            DAWID JASIOROWSKI
           </h1>
         </div>
       </div>
