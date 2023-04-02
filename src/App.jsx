@@ -14,7 +14,7 @@ function App() {
           which can be filtered and product page. The page stores its data on
           the MongoDB Atlas instance and is currently hosted on Netlify."
           repolink="https://github.com/avgmathenjoyer/store"
-          demoLink=""
+          demoLink="https://tubular-cranachan-e346e0.netlify.app/"
           title="sunny beach, oil painting, trending on artstation HQ, high res,
         warm, happy, 8k"
         />
