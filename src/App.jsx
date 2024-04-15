@@ -3,8 +3,13 @@ function App() {
     <div className="App scroll-smooth">
       <Hero />
       <AboutSection />
-      <div id="projects" className="h-[25vh] flex justify-center items-center bg-black bg-cover">
-        <h1 className="text-6xl md:text-8xl font-bold text-white">My Projects</h1>
+      <div
+        id="projects"
+        className="h-[25vh] flex justify-center items-center bg-black bg-cover"
+      >
+        <h1 className="text-6xl md:text-8xl font-bold text-white">
+          My Projects
+        </h1>
       </div>
       <div className="bg-[url('/beach.webp')] bg-cover">
         <ProjectSection
@@ -30,6 +35,15 @@ function App() {
           demoLink="https://transcendent-starlight-d45333.netlify.app/"
           title="concert, energetic, oil painting, trending on artstation, dark,
         happy"
+        />
+      </div>
+      <div className="bg-[url('/leader.png')] bg-cover">
+        <ProjectSection
+          heading="Goal tracker"
+          paragraph="This app combines authentication with customizable metrics for precise progress tracking. With secure authentication, users can access their accounts confidently. Custom metrics allow individuals to measure progress according to their specific goals, whether they're tracking fitness or professional achievements."
+          repoLink="https://github.com/avgmathenjoyer/goal-tracker"
+          demoLink="https://bespoke-eclair-203c02.netlify.app/"
+          title="leader looking into the future, beautiful landscape, impressionist style, 19th century, oil painting"
         />
       </div>
     </div>
@@ -80,11 +94,12 @@ function AboutSection() {
       <div className="ml-4 lg:ml-12 drop-shadow-2xl mt-[15vh] xl:mt-[30vh] lg:w-3/5 backdrop-blur-xs">
         <h1 className="text-5xl 2xl:text-7xl font-bold">About me</h1>
         <p className="text-2xl 2xl:text-4xl">
-          I'm a 19-year-old first year Computer Science student at Jagiellonian University.
-          I'm really into both front-end and back-end technologies and have been experimenting 
-          with combining them with machine learning tools to make websites look and work even better. 
-          This portfolio is a perfect example of how I've used this philosophy on the front-end 
-          side - all the background images were created using AI.
+          I'm a 20-year-old first year Computer Science student at Jagiellonian
+          University. I'm really into both front-end and back-end technologies
+          and have been experimenting with combining them with machine learning
+          tools to make websites look and work even better. This portfolio is a
+          perfect example of how I've used this philosophy on the front-end side
+          - all the background images were created using AI.
         </p>
       </div>
       <div className="text-white flex flex-row-reverse text-sm md:text-lg xl:text-2xl ml-2 mr-3 mb-8 italic mt-12 h-full items-end">
@@ -120,20 +135,12 @@ function DemoLink({ link }) {
   );
 }
 
-function ProjectSection({
-  heading,
-  paragraph,
-  title,
-  repoLink,
-  demoLink,
-}) {
+function ProjectSection({ heading, paragraph, title, repoLink, demoLink }) {
   return (
-    <section
-      className={`w-screen h-screen flex flex-col text-white`}
-    >
+    <section className={`w-screen h-screen flex flex-col text-white`}>
       <div className="mt-[15vh] 2xl:mt-[30vh] ml-4 lg:ml-12 w-full lg:w-3/5 drop-shadow-2xl p-4 rounded-xl inline-block backdrop-blur-xs">
         <h1 className="text-5xl xl:text-7xl font-bold mb-2">{heading}</h1>
-        <p className="text-2xl xl:text-4xl w-full">{paragraph}</p>
+        <p className="text-2xl xl:text-2xl w-full">{paragraph}</p>
         <div className="flex flex-row">
           <RepoLink link={repoLink} />
           <DemoLink link={demoLink} />
