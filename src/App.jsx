@@ -46,6 +46,15 @@ function App() {
           title="leader looking into the future, beautiful landscape, impressionist style, 19th century, oil painting"
         />
       </div>
+      <div className="bg-[url('/planning.png')] bg-cover">
+        <ProjectSection
+          heading="Deadline scheduler"
+          paragraph="This React app integrated with Spring Boot simplifies deadline management for users, allowing easy addition, viewing, modification, and deletion of deadlines. Through a user-friendly interface, users can efficiently organize their tasks and stay updated on upcoming deadlines."
+          repoLink="https://github.com/avgmathenjoyer/deadline-backend"
+          demoLink="https://jazzy-medovik-320317.netlify.app/"
+          title="5 leaders, classroom, map, planning, plans, leaders, suits, impressionist, 19th century oil painting"
+        />
+      </div>
     </div>
   );
 }
