@@ -103,7 +103,7 @@ function AboutSection() {
       <div className="ml-4 lg:ml-12 drop-shadow-2xl mt-[15vh] xl:mt-[30vh] lg:w-3/5 backdrop-blur-xs">
         <h1 className="text-5xl 2xl:text-7xl font-bold">About me</h1>
         <p className="text-2xl 2xl:text-4xl">
-          I'm a 20-year-old first year Computer Science student at Jagiellonian
+          I'm a 20-year-old second year Computer Science student at Jagiellonian
           University. I'm really into both front-end and back-end technologies
           and have been experimenting with combining them with machine learning
           tools to make websites look and work even better. This portfolio is a
